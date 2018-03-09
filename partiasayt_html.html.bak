@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+<h1>Україна</h1>
+</title>
+ <style>
+body {
+color: white;
+font-family: Arial;
+}
+</style>
+</head> 
+<body bgcolor="#000000">
+<script src="dani.js"></script>
+<h1>Це наш сайт</h1>
+<script>
+  function printTime() {
+  var d = new Date();
+  var hours = d.getHours();
+  var mins = d.getMinutes();
+  var secs = d.getSeconds();
+  document.body.innerHTML = hours+":"+mins+":"+secs;
+}
+setInterval(printTime, 1000);
+</script>
+<p>
+Статус: <progress min="0" max="100" value="0"></progress>
+</p>
+<nav>
+   <ul>
+      <li><a href="#">Наші компанії</a></li>
+      <li><a href="#">Реєстрація на війну</a></li>
+      <li><a href="#">Про нас</a></li>
+   </ul>
+</nav>
+    <div style="background-color:black; color:white; padding:20px;">
+<h2> Головні події </h2>
+      <p>Ми завоювали Росію, Болгарію і Арабські Емірати.</p>
+      <p>Давайте завоюєм реально пару класів. Приєднуйся до нас в розділі Реєстрація на війну.</p>
+    </div>
+
+<>
+</nav>
+</body>
+</html>
